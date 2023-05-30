@@ -16,7 +16,7 @@ class ProductItem extends StatelessWidget {
           onTap: () => Navigator.push(
               ctx,
               MaterialPageRoute(
-                  builder: (ctx) => ProductDetailsScreen(title, 12))),
+                  builder: (ctx) => ProductDetailsScreen(title, 23))),
           child: Image.network(
             imageUrl,
             fit: BoxFit.cover,
