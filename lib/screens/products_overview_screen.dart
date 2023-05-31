@@ -22,7 +22,7 @@ class ProductsOverviewScreen extends StatelessWidget {
           desc:
               "Veste et pantalon doré brillant de chez jules qui fait ressortir la couleur de peau de celui qui le porte .Elégant est cette personne qui portera cet ensemble.",
           imageUrl:
-              "https://img.freepik.com/photos-gratuite/superbe-femme-noire-beaux-cheveux-ondules-elegant-costume-satin-dore-posant-mur-beige-look-mode-printemps_273443-4104.jpg?w=1800&t=st=1685455816~exp=1685456416~hmac=97d06952a3b85151767347e32816336283eee44157e961981388f532ad8e6f28",
+              "https://img.freepik.com/photos-gratuite/coup-moyen-femme-tenue-rose_23-2149068995.jpg?w=1060&t=st=1685458642~exp=1685459242~hmac=48795a78d2b577b0c9b7d763e3507c02cee6ee8ba9e692141e76cdc18c9b4c1d",
           price: 20.000),
       Product(
           id: "3",
