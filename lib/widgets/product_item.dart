@@ -13,8 +13,8 @@ class ProductItem extends StatelessWidget {
       borderRadius: BorderRadius.circular(14),
       child: GridTile(
         child: GestureDetector(
-          onTap: () => Navigator.of(ctx).pushNamed(
-            ProductDetailsScreen.routeName,arguments: id),
+          onTap: () => Navigator.of(ctx)
+              .pushNamed(ProductDetailsScreen.routeName, arguments: id),
           child: Image.network(
             imageUrl,
             fit: BoxFit.cover,
@@ -22,7 +22,12 @@ class ProductItem extends StatelessWidget {
         ),
         footer: GridTileBar(
           backgroundColor: const Color.fromARGB(77, 158, 158, 158),
-          leading: IconButton(onPressed: () {}, icon: Icon(Icons.favorite,color: Theme.of(ctx).primaryColor,)),
+          leading: IconButton(
+              onPressed: () {},
+              icon: Icon(
+                Icons.favorite,
+                color: Theme.of(ctx).primaryColor,
+              )),
           trailing:
               IconButton(onPressed: () {}, icon: Icon(Icons.shopping_cart)),
           title: Text(
